@@ -1,0 +1,145 @@
+body{
+    font-family: arial,sans-serif;
+    font-size: 14px;
+    display: contents;
+}
+
+.nav{
+    display: flex;
+    margin:20px 0px 20px 5px;
+}
+
+.nav a{
+    margin-left: 20px;
+    color:black;
+    text-decoration: none;
+}
+
+nav a:visited{ 
+    color: black;
+    text-decoration: none;
+}
+
+.nav a:hover{
+    text-decoration: underline;
+}
+
+.left-nav{
+    display: flex;
+    align-items: center;
+}
+
+.right-nav{
+    display: flex;
+    /* float: right; */
+    margin-left: 1150px;
+    height: 30px;
+    align-items: center;
+}
+
+.main{
+    margin-top: 130px;
+    text-align: center;
+}
+
+.input-wrapper{
+    margin-top: 20px;
+}
+
+.input-wrapper input{
+    width: 450px;
+    height: 40px;
+    border: 1px solid #dfe1e5;
+    border-radius: 24px;
+    padding-left: 50px;
+    padding-right: 80px;
+    font-size: 16px;
+}
+
+.input-wrapper input:hover {
+    background-color: #fff;
+    box-shadow: 0 1px 6px rgb(32 33 36 / 28%);
+    border-color: rgba(223,225,229,0);
+  }
+
+input:focus {outline:none;}
+
+.search-icon{
+    position: relative;
+    left: 40px;
+    color: #9aa0a6;
+}
+
+.keyboard-icon{
+    position: relative;
+    right: 75px;
+    color: #5b6166;
+}
+
+.mic-icon{
+    position: relative;
+    right: 60px;
+}
+
+.btn-wrapper{
+    margin-top: 30px;
+}
+
+.btn-wrapper button{
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    border-radius: 4px;
+    color: #3c4043;
+    margin-right: 10px;
+    line-height: 27px;
+    min-width: 54px;
+    font-size: 15px;
+    height: 36px;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+}
+
+.btn-wrapper button:hover {
+    box-shadow: 0 1px 1px rgb(0 0 0 / 10%);
+    background-color: #f8f9fa;
+    border: 1px solid #dadce0;
+    color: #202124;
+  }
+
+.footer{
+    background: #f2f2f2;
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+}
+
+.country{
+    padding: 15px 30px;
+    border-bottom: 1px solid #dadce0;
+    font-size: 15px;
+    color: #70757a;
+}
+
+.second-line{
+    padding: 15px 35px 15px 15px;
+    font-size: 15px;
+}
+
+.right-footer{
+      float: right;
+}
+
+.footer a{
+    text-decoration: none;
+    margin-left: 20px;
+}
+
+.footer a:visited{ 
+    color: #70757a;
+    text-decoration: none;
+}
+
+.footer a:hover{
+    text-decoration: underline;
+}
