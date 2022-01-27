@@ -3,4 +3,3 @@
  https://jaeheon-so.github.io/HTML-CSS-Study/Self-Introduction/  
  https://jaeheon-so.github.io/HTML-CSS-Study/MSG-Homepage/HTML/  
  https://jaeheon-so.github.io/HTML-CSS-Study/simple-calculator/  
- https://jaeheon-so.github.io/HTML-CSS-Study/Google-Mainpage/
