@@ -1,0 +1,42 @@
+body{
+    margin: 0px;
+}
+
+/* navbar 시작 */
+nav{
+    padding: 8px 70px;
+}
+
+.btn-outline-success {
+    color: chocolate;
+    border-color: chocolate;
+}
+
+.btn-outline-success:hover {
+    color: #fff;
+    background-color: chocolate;
+    border-color: chocolate;
+}
+
+.btn-outline-success:active {
+    color: #fff;
+    background-color: chocolate;
+    border-color: chocolate;
+}
+
+.btn-outline-success:focus {
+    box-shadow: 0 0 0 0.25rem rgb(210 105 30 / 50%);
+}
+
+.btn-outline-success:active:focus {
+    box-shadow: 0 0 0 0.25rem rgb(210 105 30 / 50%);
+}
+
+.form-control:focus {
+    color: #212529;
+    background-color: #fff;
+    border-color: chocolate;
+    outline: 0;
+    box-shadow: 0 0 0 0.25rem rgb(210 105 30 / 25%);
+}
+/* navnar 끝*/
